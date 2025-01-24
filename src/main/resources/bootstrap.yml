@@ -3,4 +3,4 @@ spring:
     name: card-service
   cloud:
     config:
-      url: ${config.server}
+      uri: ${config.server}
